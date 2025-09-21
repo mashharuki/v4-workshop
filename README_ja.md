@@ -226,6 +226,12 @@ cp apps/indexer/.env.example apps/indexer/.env
 bun install
 ```
 
+gitSubmoduleのインストール
+
+```bash
+git submodule update --init --recursive
+```
+
 ### 3. インデクサーのセットアップと開始（初回のみ）
 
 ```bash
