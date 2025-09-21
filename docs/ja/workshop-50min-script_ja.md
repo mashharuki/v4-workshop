@@ -108,7 +108,7 @@ Hookアドレスをデコードし、末尾2バイトを抽出してバイナリ
 ビット演算ANDを適用してHookフラグを見つけます：
 ```
 
-![Hook Permission Flags Example](../assets/hookflags.png)
+![Hook Permission Flags Example](../../assets/hookflags.png)
 
 > 上図は、CSMM（定数和マーケットメーカー）Hookのパーミッションビットを示しています。
 > 各ビットは特定のコールバック関数に対応し、1に設定されたビットのみが実行可能です。
@@ -225,7 +225,7 @@ forge test --fork-url $UNICHAIN_RPC -vvv
 > 次に、デプロイしたHookを使ってプールを作成します。
 > V4では、すべてのプールが単一のPoolManagerで管理されます。
 
-![V4 Architecture](../assets/pookmanager.png)
+![V4 Architecture](../../assets/pookmanager.png)
 
 > 上図のように、V4では：
 >
@@ -309,7 +309,7 @@ bun run scripts/check-pool-state.ts
 
 #### 流動性追加フロー
 
-![Liquidity Addition Flow](../assets/hookliquidityflow.png)
+![Liquidity Addition Flow](../../assets/hookliquidityflow.png)
 
 > 上図は流動性追加時の詳細フローを示しています：
 >
@@ -322,7 +322,7 @@ bun run scripts/check-pool-state.ts
 
 > 流動性追加時の必要量は以下の公式で決まります：
 >
-> ![V4 Liquidity Formula](../assets/v4math.png)
+> ![V4 Liquidity Formula](../../assets/v4math.png)
 >
 > **例（ETH/USDC、1 ETH = 3990 USDC）**：
 >
@@ -514,7 +514,7 @@ docker ps
 bun run indexer
 ```
 
-![Envio Indexer Running Screen](../assets/indexer-envio.png)
+![Envio Indexer Running Screen](../../assets/indexer-envio.png)
 
 > 上図のように、インデクサーが起動すると：
 >

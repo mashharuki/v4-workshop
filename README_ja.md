@@ -437,6 +437,7 @@ PoolManager → イベント発行 → Envio インデクサー → PostgreSQL �
 - [Envio Uniswap V4 Indexer](https://github.com/enviodev/uniswap-v4-indexer)
 - [日本コミュニティ](https://t.me/uniswapjp)
 - [Uniswap V4 Dojo](https://t.me/c/1793969856/1)
+- [DEX Analytics](https://dexanalytics.org/schemas/jit-liquidity-events)
 
 ---
 
